@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# Welcome to IoTUp Shop!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## About us
+IoTUp is form by group of enthusiastic engineers and artist that believe electronics could be fun!
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Our Online Shops
+Please visit our shops on these online marketplaces:
+- [IoTUp Shop on Etsy](https://www.etsy.com/uk/shop/IoTUp) 
+- [IoTUp Shop on Amazon](https://www.amazon.co.uk/Coaster-Electronic-Engineers-Scientists-Students/dp/B0B8PHMSVF) 
