@@ -1,6 +1,6 @@
 # Welcome to IoTUp Shop!
 
-<a class="twitter-timeline" href="https://twitter.com/insaneartisan?ref_src=twsrc%5Etfw">Loading tweets by Insane Artisan at IoTUp Shop</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" href="https://twitter.com/iotup_shop?ref_src=twsrc%5Etfw">Loading tweets by Insane Artisan at IoTUp Shop</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## About us
 IoTUp is form by group of enthusiastic engineers and artist that believe electronics could be fun!
