@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
-baseurl = "https://demo.gethugothemes.com/vex/examplesite/"
-title = "Vex | hugo landing page template"
+baseurl = "https://gear4hackers.github.io/"
+title = "Gear4Hackers"
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
@@ -92,12 +92,12 @@ weight = 4
 ########################### Default parameters ##########################
 [params]
 logo = "images/logo.png"
-logo_width = "100px"
+logo_width = "50px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
 # currency
-currency = "$"
+currency = "£"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
@@ -126,14 +126,5 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Designed & Developed By [Seyed Amir Alavi](https://samiralavi.github.io/)"
 
-
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-# copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
