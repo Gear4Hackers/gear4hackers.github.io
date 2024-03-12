@@ -1,0 +1,80 @@
+baseurl: "https://gear4hackers.github.io/"
+title: "Gear4Hackers, Technology-Inspired Art, Devices, and Accessories"
+theme: vex-hugo
+summarylength: "20"
+services:
+  googleAnalytics:
+    ID: G-F1W6B9XH6E
+disableLanguages: []
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  plugins:
+    css:
+      - link: >-
+          https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/themefisher-font/themefisher-font.min.css
+      - link: plugins/slick/slick.min.css
+      - link: "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
+    js:
+      - link: plugins/jquery/jquery.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
+  logo: images/logo.png
+  logo_width: 100px
+  description: This is meta description
+  author: Themefisher
+  currency: £
+  contact_form_action: "#"
+  preloader:
+    enable: true
+    preloader: ""
+  snipcart:
+    enable: false
+    snipcart_api: ""
+  subscription:
+    enable: false
+    mailchimp_form_action: ""
+    mailchimp_form_name: ""
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Products
+      url: products/
+      weight: 2
+    - name: Blog
+      url: blog/
+      weight: 3
+    - name: Review
+      pre: "#"
+      url: testimonial
+      weight: 4
+    - name: Contact
+      url: contact/
+      weight: 5
+  footer:
+    - name: Blog
+      url: blog/
+      weight: 1
+    - name: Contact
+      url: contact/
+      weight: 2
+    - name: Terms & Conditions
+      url: terms-conditions/
+      weight: 3
+    - name: Privacy Policy
+      url: privacy-policy/
+      weight: 4
+Languages:
+  en:
+    languageName: En
+    languageCode: en-us
+    contentDir: content/english
+    weight: 1
+    copyright: "Designed & Developed By [Seyed Amir Alavi](https://samiralavi.github.io/)"
