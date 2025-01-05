@@ -4,7 +4,7 @@ theme: vex-hugo
 summarylength: "20"
 services:
   googleAnalytics:
-    ID: G-PKPBJGW1QX
+    ID: GT-573ZX9DP
 disableLanguages: []
 markup:
   goldmark:
