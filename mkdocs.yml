@@ -1,23 +1,42 @@
-site_name: IoTUp!
+site_name: IoTUp | Technology-Inspired Art, Devices, and Accessories
+site_author: Seyed Amir Alavi
+site_url: https://iotup.github.io/
+repo_name: iotup.github.io
+
 theme:
   name: material
   logo: assets/logo.png
   favicon: assets/logo.png
   palette:
-    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      primary: black
-      accent: deep orange
+      scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-sunny
         name: Switch to dark mode
-    # Palette toggle for dark mode
+      primary: indigo
+      accent: blue
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to light mode
+      primary: red
+      accent: red
+  features:
+    - navigation.expand
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+
 extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/samiralavi
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@IoTUp
   consent:
     title: Cookie consent
     description: >- 
@@ -28,5 +47,18 @@ extra:
 copyright: >
   Copyright &copy; 2022 - 2023 IoTUp –
   <a href="#__consent">Change cookie settings</a>
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - meta
+  - md_in_html
+  - attr_list
+  - toc:
+      permalink: true
+
 plugins:
   - social
+  - search # necessary for search to work
+  - awesome-pages
